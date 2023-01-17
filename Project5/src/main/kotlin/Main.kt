@@ -114,10 +114,21 @@ fun main() {
     }
     println()
 
+    
     println("Input book name:")
     var bookName = readln()
+
     println("Input year of the issue:")
-    var bookYear = readln().toInt()
+    val year = readln()!!
+    var bookYear : Int
+    try {
+        bookYear = year.toInt()
+    }
+    catch (e: NumberFormatException)
+    {
+        bookYear = 2023
+    }
+
     println("Input book ISBN:")
     var bookISBN : String = readln()
     println("Input book genre:")
