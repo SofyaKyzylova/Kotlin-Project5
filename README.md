@@ -6,7 +6,7 @@ For the object created in the previous task, develop a hierarchy of classes, sel
 create a parent class for them with common properties and methods, write your own implementations of properties and methods for similar objects.
 
 
-* Add the user's ability to enter some properties of your objects in the console and output them to the console.
+Add the user's ability to enter some properties of your objects in the console and output them to the console.
 
 
 Add exception handling.
